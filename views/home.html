@@ -1,0 +1,549 @@
+<div class="scroll">
+  <div class="scroll-content">
+    <!-- Phần chào -->
+    <div class="greeting">
+      <h2 class="text--title3--bold">Xin chào, Thiện!</h2>
+      <p class="text--body--regular">Hôm nay bạn muốn đặt giấy nào?</p>
+    </div>
+
+    <!-- Phần Banner -->
+    <div class="banner-slider">
+      <div class="slider-wrapper">
+        <div class="slider-content">
+          <div class="slider-item">
+            <img
+              src="/assets/images/hero-slider.png"
+              alt="Khuyến mãi mùa hè"
+              style="height: 200px; width: 430px"
+              loading="lazy"
+              class="slider-img"
+            />
+          </div>
+          <div class="slider-item">
+            <img
+              src="/assets/images/hero-slider2.png"
+              alt="Sản phẩm mới"
+              style="height: 200px; width: 430px"
+              loading="lazy"
+              class="slider-img"
+            />
+          </div>
+          <div class="slider-item">
+            <img
+              src="/assets/images/hero-slider.png"
+              alt="Ưu đãi đặc biệt"
+              style="height: 200px; width: 430px"
+              loading="lazy"
+              class="slider-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thanh tìm kiếm -->
+    <div class="searchBar">
+      <div class="search__field">
+        <img
+          src="/assets/icon/search-icon.png"
+          alt="Tìm kiếm"
+          width="24"
+          height="24"
+        />
+        <input
+          type="text"
+          placeholder="Tìm sản phẩm"
+          class="search-input text--callout--regular"
+          aria-label="Tìm kiếm sản phẩm"
+        />
+      </div>
+      <button class="buttonBox" aria-label="Chat">
+        <img
+          src="/assets/icon/chat-icon.png"
+          alt="Chat"
+          width="24"
+          height="24"
+        />
+      </button>
+      <button class="buttonBox" aria-label="Thông báo">
+        <img
+          src="/assets/icon/noti-icon.png"
+          alt="Thông báo"
+          width="24"
+          height="24"
+        />
+      </button>
+    </div>
+
+    <!-- Phần màn tìm kiếm -->
+    <div class="search__overlay" id="searchOverlay">
+      <div class="search__fullscreen">
+        <div class="search__greeting-container">
+          <div style="display: flex; gap: 4px; flex-direction: column">
+            <p class="text--title3--bold">Xin chào, Thiện!</p>
+            <p class="text--body--regular">Hôm nay bạn muốn đặt giấy nào?</p>
+          </div>
+          <div class="search__close">
+            <img src="/assets/icon/cancle.png" alt="close" loading="lazy" />
+          </div>
+        </div>
+        <div class="search__bar-container">
+          <div class="search__input">
+            <img
+              src="/assets/icon/search-icon.png"
+              alt="Tìm kiếm"
+              width="24"
+              height="24"
+            />
+            <input
+              type="text"
+              placeholder="Tìm sản phẩm"
+              class="search-input text--callout--regular"
+              aria-label="Tìm kiếm sản phẩm"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần Shortcuts -->
+    <div class="shortcuts">
+      <div class="shortcuts__row">
+        <a href="#/blog" class="nav__item" aria-label="Bài viết">
+          <img
+            src="/assets/icon/blog-icon.png"
+            alt="Bài viết"
+            width="32"
+            height="32"
+          />
+          <span class="text--caption1--bold">Bài viết</span>
+        </a>
+        <a href="#/voucher" class="nav__item" aria-label="Voucher">
+          <img
+            src="/assets/icon/voucher-icon.png"
+            alt="Voucher"
+            width="32"
+            height="32"
+          />
+          <span class="text--caption1--bold">Voucher</span>
+        </a>
+        <a href="#/affiliate" class="nav__item" aria-label="Affiliate">
+          <img
+            src="/assets/icon/affiliate-icon.png"
+            alt="Affiliate"
+            width="32"
+            height="32"
+          />
+          <span class="text--caption1--bold">Affiliate</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Phần Voucher -->
+    <div class="voucher">
+      <div class="title__voucher">
+        <div class="col">
+          <img src="/assets/icon/vouchers.png" alt="Voucher" />
+          <span class="text--title1--bold">Voucher</span>
+        </div>
+        <a
+          class="text--caption1--bold"
+          href="#/voucher"
+          aria-label="Xem thêm voucher"
+          >Xem thêm</a
+        >
+      </div>
+      <div class="vouchers__main">
+        <div class="card">
+          <div class="card__image-container">
+            <img
+              src="/assets/images/thumbnails.png"
+              alt="Voucher giảm 10%"
+              class="card__image"
+              loading="lazy"
+            />
+            <div class="card__badge" aria-hidden="true">10%</div>
+          </div>
+          <div class="card__main">
+            <div class="card__header">
+              <span class="text--callout--bold">Giảm 10% tối đa 20k</span>
+              <p class="card__subtitle">Đơn đầu tiên từ 0đ</p>
+            </div>
+            <div
+              class="card__progress"
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+            <div class="card__footer">
+              <button class="card__button" aria-label="Lấy mã voucher">
+                Lấy mã
+              </button>
+              <span class="card__status">Sắp hết</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image-container">
+            <img
+              src="/assets/images/thumbnails.png"
+              alt="Voucher giảm 10%"
+              class="card__image"
+              loading="lazy"
+            />
+            <div class="card__badge" aria-hidden="true">10%</div>
+          </div>
+          <div class="card__main">
+            <div class="card__header">
+              <span class="text--callout--bold">Giảm 10% tối đa 20k</span>
+              <p class="card__subtitle">Đơn đầu tiên từ 0đ</p>
+            </div>
+            <div
+              class="card__progress"
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+            <div class="card__footer">
+              <button class="card__button" aria-label="Lấy mã voucher">
+                Lấy mã
+              </button>
+              <span class="card__status">Sắp hết</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image-container">
+            <img
+              src="/assets/images/thumbnails.png"
+              alt="Voucher giảm 10%"
+              class="card__image"
+              loading="lazy"
+            />
+            <div class="card__badge" aria-hidden="true">10%</div>
+          </div>
+          <div class="card__main">
+            <div class="card__header">
+              <span class="text--callout--bold">Giảm 10% tối đa 20k</span>
+              <p class="card__subtitle">Đơn đầu tiên từ 0đ</p>
+            </div>
+            <div
+              class="card__progress"
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+            <div class="card__footer">
+              <button class="card__button" aria-label="Lấy mã voucher">
+                Lấy mã
+              </button>
+              <span class="card__status">Sắp hết</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần sản phẩm bán chạy -->
+    <div class="hot">
+      <div class="title__hot">
+        <div class="col">
+          <img
+            src="/assets/icon/hot-icon.png"
+            alt="Bán chạy"
+            width="24"
+            height="24"
+          />
+          <span class="text--title1--bold">Bán chạy</span>
+        </div>
+        <a class="text--caption1--bold" href="#/products">Xem thêm</a>
+      </div>
+
+      <div class="products-container">
+        <div class="product">
+          <div class="product__card">
+            <img
+              src="/assets/images/image.png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">
+              Thùng 20 gói khăn giấy tre TISSUEPack
+            </h3>
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="product__card">
+            <img
+              src="/assets/images/image (1).png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">Combo mình ên</h3>
+            <span class="text--caption1--regular"
+              >02 túi lớn TISSUEPack x 01 lốc TISSUEPocket</span
+            >
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="product__card">
+            <img
+              src="/assets/images/image.png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">
+              Thùng 20 gói khăn giấy tre TISSUEPack
+            </h3>
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="product__card">
+            <img
+              src="/assets/images/image.png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">
+              Thùng 20 gói khăn giấy tre TISSUEPack
+            </h3>
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần danh mục -->
+    <div class="category">
+      <div class="title__category">
+        <div class="col">
+          <img src="/assets/icon/category-icon.png" alt="Danh mục" />
+          <span class="text--title1--bold">Danh mục</span>
+        </div>
+        <a
+          class="text--caption1--bold"
+          href="#/categories"
+          aria-label="Xem thêm danh mục"
+          >Xem thêm</a
+        >
+      </div>
+      <div class="category-container">
+        <div class="category__col">
+          <a href="#/categories">
+            <div class="category__card">
+              <img
+                src="/assets/images/category1.png"
+                alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                loading="lazy"
+              />
+              <span class="text--headline--bold">Giấy vệ sinh</span>
+            </div>
+          </a>
+          <a href="#/categories">
+            <div class="category__card">
+              <img
+                src="/assets/images/category2.png"
+                alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                loading="lazy"
+              />
+              <span class="text--headline--bold">Khăn giấy rút</span>
+            </div>
+          </a>
+        </div>
+        <div class="category__col">
+          <a href="#/categories"
+            ><div class="category__card">
+              <img
+                src="/assets/images/category3.png"
+                alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                loading="lazy"
+              />
+              <span class="text--headline--bold">Gói bỏ túi</span>
+            </div></a
+          >
+          <a href="#/categories"
+            ><div class="category__card">
+              <img
+                src="/assets/images/category4.png"
+                alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                loading="lazy"
+              />
+              <span class="text--headline--bold">Hộp để bàn</span>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần combo gợi ý -->
+    <div class="hot">
+      <div class="title__hot">
+        <div class="col">
+          <img
+            src="/assets/icon/hot-icon.png"
+            alt="Bán chạy"
+            width="24"
+            height="24"
+          />
+          <span class="text--title1--bold">Combo gợi ý</span>
+        </div>
+        <a class="text--caption1--bold" href="#/products">Xem thêm</a>
+      </div>
+
+      <div class="products-container">
+        <div class="product">
+          <div class="product__card">
+            <img
+              src="/assets/images/image (1).png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">Combo mình ên</h3>
+            <span class="text--caption1--regular"
+              >02 túi lớn TISSUEPack x 01 lốc TISSUEPocket</span
+            >
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="product__card">
+            <img
+              src="/assets/images/image (1).png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">Dành cho 2 người</h3>
+            <span class="text--caption1--regular"
+              >03 túi lớn TISSUEPack x 02 lốc TISSUEPocket</span
+            >
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="product__card">
+            <img
+              src="/assets/images/image (1).png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">Combo mình ên</h3>
+            <span class="text--caption1--regular"
+              >02 túi lớn TISSUEPack x 01 lốc TISSUEPocket</span
+            >
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="product__card">
+            <img
+              src="/assets/images/image (1).png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">Combo mình ên</h3>
+            <span class="text--caption1--regular"
+              >02 túi lớn TISSUEPack x 01 lốc TISSUEPocket</span
+            >
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="product__card">
+            <img
+              src="/assets/images/image (1).png"
+              alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+              loading="lazy"
+            />
+            <h3 class="text--headline--bold">Combo mình ên</h3>
+            <span class="text--caption1--regular"
+              >02 túi lớn TISSUEPack x 01 lốc TISSUEPocket</span
+            >
+            <div class="product__footer">
+              <span class="text--headline--bold">80,000 đ</span>
+              <button class="add-to-cart-button">
+                <img
+                  src="/assets/images/welcome (1).png"
+                  alt="Thùng 20 gói khăn giấy tre TISSUEPack"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="date">
+      <span class="text--caption1--bold">Tiếp tục vuốt lên để đọc</span>
+      <img src="/assets/icon/share to chat.png" alt="icon" loading="lazy" />
+    </div>
+  </div>
+</div>

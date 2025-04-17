@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Viewport tối ưu (chỉ cần 1 thẻ) -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+
+    <!-- Meta cho iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="App Name" />
+
+    <!-- Meta cho Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Meta chung -->
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="status-bar">
+        <div class="time">9:41</div>
+        <div class="status-icons">
+          <img src="/assets/icon/Mobile Signal.png" alt="" />
+          <img src="/assets/icon/Wifi.png" alt="" />
+          <img src="/assets/icon/_StatusBar-battery.png" alt="" />
+        </div>
+      </div>
+
+      <div id="header-container"></div>
+
+      <main id="app"></main>
+
+      <div class="menubar">
+        <a href="#" class="menubar__item">
+          <img src="/assets/icon/icon-shop.png" alt="menu icon" />
+          <span class="text--caption1--bold">Cửa hàng</span>
+        </a>
+        <a href="#/products" class="menubar__item">
+          <img src="/assets/icon/icon-product.png" alt="menu icon" />
+          <span class="text--caption1--bold">Sản phẩm</span>
+        </a>
+        <a href="#/cart" class="menubar__item">
+          <img src="/assets/icon/icon-cart2.png" alt="menu icon" />
+          <span class="text--caption1--bold">Giỏ hàng</span>
+        </a>
+        <a href="#/order" class="menubar__item">
+          <img src="/assets/icon/icon-box.png" alt="menu icon" />
+          <span class="text--caption1--bold">Đơn hàng</span>
+        </a>
+        <a href="#/user" class="menubar__item">
+          <img src="/assets/icon/icon-user.png" alt="menu icon" />
+          <span class="text--caption1--bold">Cá nhân</span>
+        </a>
+      </div>
+
+    </div>
+    <script src="/assets/js/header.js"></script>
+    <script src="/assets/js/router.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
